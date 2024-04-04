@@ -33,8 +33,8 @@ conf.set('core', 'enable_parquet_xcom', 'True')
 
 # Define default arguments for your DAG
 default_args = {
-    'owner': 'your_name',
-    'start_date': datetime(2023, 11, 9),
+    'owner': 'childy',
+    'start_date': datetime(2024, 4, 3),
     'retries': 0, # Number of retries in case of task failure
     'retry_delay': timedelta(minutes=5), # Delay before retries
 }
